@@ -1,0 +1,26 @@
+export = Object.freeze({
+  CURRENT_TURN_IS_NOT_YOUR_ERROR_MESSAGES: 'Current turn is not your turn !',
+  TABLE_NOT_FOUND_ERROR_MESSAGES: 'Table Not Found.',
+  DECLARED_WINNER_ERROR_MESSAGES: 'This Table Declared Winner.',
+  USER_ID_NOT_FOUND_ERROR_MESSAGES: 'UserId Not Found!',
+  USER_DETAIL_NOT_FOUND_ERROR_MESSAGES: 'User Detail Not Found!',
+  NOT_CREATE_MORE_THEN_SIX_GROUP:`Not create more then 6 group`,
+  WILD_CARD_NOT_PICK : `You can't pick a discarded wild card`,
+  LAST_DEAL_NOT_FOUND:`Last Deal Not Found !`,
+  WAITING_FOR_ANTHOR_PLAYERS : `Waiting for anthor Players `,
+  INSUFFICIENT_BALANCE:`Insufficient Balance For This Table`,
+  COMMON_ERROR: 'Oops! Something went wrong. Please try again later.',
+  PLEASE_GROUP_YOUR_CARDS_AND_DECLARE : `Please group your cards and declare.`,
+  YOU_MADE_AN_INVALID_DECLARE : `You made an invalid declare.`,
+  HAS_MADE_A_VALID_DECLARATION : `has made a valid declaration.`,
+  YOU_ARE_SEAT_IN_WATCHING_MODE_PLEASE_WAITING_FOR_NEW_GAME_START : `You are in watching mode. please wait for the new game to start.`,
+  REJOIN_PREVIOUS_TABLE : `Your previous table still running.if you want to join  previous table, please click on REJOIN button.`,
+  WAITING_FOR_PLAYER_TIMER : `waiting for player timer`,
+  RESUFFLE_CARDS_MSG : `Close deck cards are empty, so the cards will be reshuffled.`,
+  LOCK_IN_PEROID_MSG : `PLAYERS ON THIS TABLE HAVE BEEN LOCKED. ENTRY FEE WILL BE DEDUCTED IF YOU LEAVE THE TABLE NOW.`,
+  MAXIMUM_TABLE_ERROR_MSG : `Maximum table limit reached`,
+  SERVER_UNDER_THE_MAINTENANCE : `Server under the maintenance.`,
+  ENTRY_FEE_DEDUCTED_MSG : `Oops! Something went wrong in entry fee deduction. Please check your balance and try again`,
+  MULTIPLE_LOGIN_FAILED_MSG : `You are logged in another instance of 3+ Games.`
+  
+});
